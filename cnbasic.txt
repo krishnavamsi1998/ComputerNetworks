@@ -1,0 +1,225 @@
+Computer networks : A group of computers connected with each
+other through wires optical fibers so that they can interact and share 
+resources and data
+
+The aim of cn is to share resources among various devices
+
+components :
+
+NIC(National Interface card): It helps computer to communicate
+with another device
+
+The network interface card contains the hardware addresses, 
+the data-link layer protocol use this address to identify
+the system on the network so that it transfers the data to 
+the correct destination.
+
+Hub : Splitting of a connection to multiple devices 
+
+When computer requests for information from a computer,
+it sends the request to the Hub.
+Hub distributes this request to all the interconnected computers. 
+
+Switch : It is a device which connects the computers or other devices in a 
+network.It enables transfer of mesages from one device to another.
+
+Cable : It is a Trnasmission media
+
+(twisted pair, coaxial , fibre optical cable)
+
+Router : It is a device which connects computer to internet
+
+Modem : It is a hard ware device which coverts the data to signals so that
+they can be transmitted through cables.
+
+Use of computer networks :
+
+1.Resource sharing 
+2.Data sharing Internet
+
+Computer network types :
+
+1.LAN : Local Area Network It is a type of nework 
+where computers are connected 
+within in a small range like a buliding or an office 
+
+ex : college labs 
+
+2.MAN : metrpolitan area network It is a group lans or devices are connected
+ within a range of city or a state
+
+ex : Cable tv,mobile connections
+
+3.WAN : Wide Area nework : IT is a type of network overa large range ike a counntry 
+
+ex : Internet
+
+
+Transmission modes :
+
+Simple : Communication is unidirectional 
+
+Advantage : utilization of bandwidth of communication channel
+
+ex : Keyboard or monitor.
+
+Half duplex : Communication is bidirectional but not at the same time 
+
+Advantage : utilization of bandwidth of communication channel
+
+ex : Walkie - talkie.
+
+Full duplex : Communication is bidirectional and can be done at same time(parallel)
+
+Advantage : Parallel communication
+
+ex : Telephone.
+
+Network topologies :
+
+Mesh topology : In this evry device is connected to remaining devices
+
+NO.of lik - n(n-1)/2
+
+Advantage : No data traffic issues because as there is dedicated link bw 
+every two devices 
+
+Star Topology : Every device is connected to a central dvice called hub 
+
+Advantage : Less expensive
+
+Bus topology : In this every device is connected to main cable
+ 
+Advantage : Less cables required 
+
+Ring topology : In this devices are connected in a cyclic fashion
+
+Advantage : Easy to install
+
+Hybrid topology : One or more combination of topologies is called hybrid topology
+
+ISO OSI Model : It is a reference model designed how infomation from one system
+is carried to other via newtork
+
+It contains 7 layers and each one perform certain task
+
+It divides a bigger task into smaller task
+and each smaller task is assigned to each layer
+
+
+1.Physical layer :
+
+It transmitts bits from one device to the other.The bits recived sent to the upper layer 
+i.e datalink layer
+
+Functions : Bit rate transmissions
+Bit synchoronization
+Transmission mode
+
+Hub,modem are examples of physical layer devices
+
+2.Data link layer : Transfer of error free data frames
+
+switch and bridge are data link layer devices
+
+3.Network layer 
+
+It works for transmission of data from one host to other hosts in different network
+
+Functions : Packet routing
+selection of shortest path to transmit the packet
+
+4.Transport layer : It is responsible for sending the data completely
+to see there is no duplication
+
+5.Session Layer : It is used to create , maintain , terminate sessions
+also maintains authentications
+
+6.Presentation layer : It is used for translation of data into desired format.
+Encryption/deecryption.Data compression
+
+7.Application layer : It is top most layer of the model . It acts as interface to user 
+like whats app messenger etc 
+
+Tcp/ip (Transmission control protocol or internet control protocol):
+
+It is more reliable than osi model
+
+It provides only connection less services 
+
+Layers : 4
+
+1.Network acess layer  : It replaces Physical and data link layer in osi model
+
+2.IP(Internet protocol ) : It replaces network layer in osi model
+
+Services: Reponsible for devliary of packets for
+source to destination using ip address
+
+3.host to host layer : It is respponsible for end to
+end communication 
+it replaces transport layer in osi model
+
+4.Apllication layers : It is the top most layer
+which also replaces presentation and session layer
+in osi model
+
+services : Http,dns
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
